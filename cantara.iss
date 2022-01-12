@@ -18,7 +18,7 @@ CompressionThreads=2
 ArchitecturesAllowed=x64
 ArchitecturesInstallIn64BitMode=x64
 OutputBaseFilename={#MyAppOutputName}{#MyAppVersion}{#MyInstallerSuffix}
-
+LicenseFile=install_readme.rtf
 
 [Languages]
 Name: "german"; MessagesFile: "compiler:Languages\German.isl"
