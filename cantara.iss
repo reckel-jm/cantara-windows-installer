@@ -1,6 +1,6 @@
 #define MyAppName "Cantara"
 #define MyAppOutputName "cantara"
-#define MyAppVersion "2.0 RC"
+#define MyAppVersion "2.2.1"
 #define MyAppPublisher "Jan Martin Reckel"
 #define MyAppURL "https://github.com/reckel-jm/cantara"
 #define MyAppExeName "cantara.exe"
@@ -9,7 +9,7 @@
 
 [Setup]
 AppName=Cantara
-AppVersion=2.0 RC
+AppVersion=2.2
 DefaultDirName={pf}\{#MyAppName}
 Compression=lzma2/ultra64
 InternalCompressLevel=ultra
