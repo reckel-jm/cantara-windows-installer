@@ -1,6 +1,6 @@
 #define MyAppName "Cantara"
 #define MyAppOutputName "cantara"
-#define MyAppVersion "2.2.1"
+#define MyAppVersion "2.3"
 #define MyAppPublisher "Jan Martin Reckel"
 #define MyAppURL "https://github.com/reckel-jm/cantara"
 #define MyAppExeName "cantara.exe"
@@ -9,7 +9,7 @@
 
 [Setup]
 AppName=Cantara
-AppVersion=2.2
+AppVersion=2.3
 DefaultDirName={pf}\{#MyAppName}
 Compression=lzma2/ultra64
 InternalCompressLevel=ultra
@@ -29,7 +29,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"
 
 [Files]
 Source: "{#ReleaseDir}cantara.exe"; DestDir: "{app}"; DestName: "{#MyAppExeName}"; Flags: ignoreversion;
-Source: "{#ReleaseDir}languages\*.mo"; DestDir: "{app}\languages"; Flags: ignoreversion;
+Source: "{#ReleaseDir}languages\de\*.mo"; DestDir: "{app}\languages\de"; Flags: ignoreversion;
 Source: "{#ReleaseDir}Cantara.ico"; DestDir: "{app}"; DestName: "Cantara.ico"; Flags: ignoreversion;
 
 [Icons]
